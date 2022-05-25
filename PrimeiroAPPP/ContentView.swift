@@ -9,13 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        TabView {
+            Home()
+                .tabItem{
+                    Image(systemName: "house.fill")
+                        .foregroundColor(Color("AccentColor"))    .font(.system(size:22))
+               }
+           Remedios()
+                .tabItem{
+                    Image(systemName: "pills.fill")
+                        .foregroundColor(Color.pink)
+                }
+            Notas()
+               .tabItem{
+                    Image(systemName: "heart.text.square.fill")
+                        .foregroundColor(Color.pink)
+                }
+             configuracao()
+                .tabItem{
+                    Image(systemName: "gearshape.fill")
+                        .foregroundColor(Color.pink)
+                }
+        }
     }
 }
 
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+                .preferredColorScheme(.dark)
+        }
+        
     }
 }
+

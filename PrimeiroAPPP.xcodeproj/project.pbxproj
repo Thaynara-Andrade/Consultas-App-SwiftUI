@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49C692EC282BE079005322AC /* PrimeiroAPPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C692EB282BE079005322AC /* PrimeiroAPPPApp.swift */; };
+		4920614B283569E00005791B /* PrimeiroAPPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920614A283569E00005791B /* PrimeiroAPPPApp.swift */; };
+		4920614D28356B550005791B /* Notas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4920614C28356B550005791B /* Notas.swift */; };
 		49C692EE282BE079005322AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C692ED282BE079005322AC /* ContentView.swift */; };
 		49C692F0282BE07A005322AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C692EF282BE07A005322AC /* Assets.xcassets */; };
 		49C692F3282BE07A005322AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C692F2282BE07A005322AC /* Preview Assets.xcassets */; };
 		49C692FD282BE07A005322AC /* PrimeiroAPPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C692FC282BE07A005322AC /* PrimeiroAPPPTests.swift */; };
 		49C69307282BE07A005322AC /* PrimeiroAPPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C69306282BE07A005322AC /* PrimeiroAPPPUITests.swift */; };
 		49C69309282BE07A005322AC /* PrimeiroAPPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C69308282BE07A005322AC /* PrimeiroAPPPUITestsLaunchTests.swift */; };
+		49C69316282EA129005322AC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C69315282EA129005322AC /* Home.swift */; };
+		49C69318282EA232005322AC /* Remedios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C69317282EA232005322AC /* Remedios.swift */; };
+		49E78AE22836AB4500ADD6AA /* configuracao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E78AE12836AB4500ADD6AA /* configuracao.swift */; };
+		49E78AE42836BD2900ADD6AA /* testes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E78AE32836BD2900ADD6AA /* testes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4920614A283569E00005791B /* PrimeiroAPPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAPPPApp.swift; sourceTree = "<group>"; };
+		4920614C28356B550005791B /* Notas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notas.swift; sourceTree = "<group>"; };
 		49C692E8282BE079005322AC /* PrimeiroAPPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeiroAPPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		49C692EB282BE079005322AC /* PrimeiroAPPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAPPPApp.swift; sourceTree = "<group>"; };
 		49C692ED282BE079005322AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49C692EF282BE07A005322AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49C692F2282BE07A005322AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		49C69302282BE07A005322AC /* PrimeiroAPPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeiroAPPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C69306282BE07A005322AC /* PrimeiroAPPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAPPPUITests.swift; sourceTree = "<group>"; };
 		49C69308282BE07A005322AC /* PrimeiroAPPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAPPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49C69315282EA129005322AC /* Home.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; tabWidth = 4; };
+		49C69317282EA232005322AC /* Remedios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remedios.swift; sourceTree = "<group>"; };
+		49E78AE12836AB4500ADD6AA /* configuracao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configuracao.swift; sourceTree = "<group>"; };
+		49E78AE32836BD2900ADD6AA /* testes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,15 @@
 		49C692EA282BE079005322AC /* PrimeiroAPPP */ = {
 			isa = PBXGroup;
 			children = (
-				49C692EB282BE079005322AC /* PrimeiroAPPPApp.swift */,
 				49C692ED282BE079005322AC /* ContentView.swift */,
+				4920614A283569E00005791B /* PrimeiroAPPPApp.swift */,
+				49C69315282EA129005322AC /* Home.swift */,
+				4920614C28356B550005791B /* Notas.swift */,
+				49C69317282EA232005322AC /* Remedios.swift */,
 				49C692EF282BE07A005322AC /* Assets.xcassets */,
 				49C692F1282BE07A005322AC /* Preview Content */,
+				49E78AE12836AB4500ADD6AA /* configuracao.swift */,
+				49E78AE32836BD2900ADD6AA /* testes.swift */,
 			);
 			path = PrimeiroAPPP;
 			sourceTree = "<group>";
@@ -258,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C692EE282BE079005322AC /* ContentView.swift in Sources */,
-				49C692EC282BE079005322AC /* PrimeiroAPPPApp.swift in Sources */,
+				4920614B283569E00005791B /* PrimeiroAPPPApp.swift in Sources */,
+				49E78AE22836AB4500ADD6AA /* configuracao.swift in Sources */,
+				4920614D28356B550005791B /* Notas.swift in Sources */,
+				49C69318282EA232005322AC /* Remedios.swift in Sources */,
+				49E78AE42836BD2900ADD6AA /* testes.swift in Sources */,
+				49C69316282EA129005322AC /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,11 +366,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -401,10 +422,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -419,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PrimeiroAPPP/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S22856DS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -426,13 +449,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PrimeiroAPPP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PrimeiroAPPP;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PrimeiroAPPP/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S22856DS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -454,13 +480,15 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PrimeiroAPPP;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PrimeiroAPPP;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +510,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeiroAPPP.app/PrimeiroAPPP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saúde.app/Saúde";
 			};
 			name = Debug;
 		};
@@ -501,7 +529,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeiroAPPP.app/PrimeiroAPPP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saúde.app/Saúde";
 			};
 			name = Release;
 		};
